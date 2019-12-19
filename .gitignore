@@ -1,0 +1,7 @@
+# Mac hiddent files
+*.DS_Store
+Brainstorming.txt
+*.dll
+__dl
+
+

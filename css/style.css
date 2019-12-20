@@ -1,8 +1,130 @@
 .circular--square {
-    width: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.wrapper-main {
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.wrapper-second {
+  display:flex;
+  flex-wrap:wrap;
+  width:450px;
+  height:450px;
+}
+.wrapper-third {
+  display:flex;
+  width:150px;
+  height:150px;
+}
+.wrapper-11 {
+}
+.wrapper-12 {
+  justify-content:space-between;
+  align-items:flex-end;
+}
+.wrapper-13 {
+}
+.wrapper-21 {
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:flex-end;
+}
+.wrapper-22 {
+}
+.wrapper-23 {
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.wrapper-31 {
+}
+.wrapper-32 {
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.wrapper-33 {
+}
+.block-large {
+  width:450px;
+  height:450px;
+}
+.icon-container {
+  width:30px;
+  height:30px;
+  background-color:blue;
+  position:relative;
+}
+
+.facebook {
+ top:0px;
+}
+.icon11 {
+  top:-20px;
+  background-image:url("../img/icon-fb.png");
+  background-size:cover;
+}
+.icon11:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-fb-on.png");
+}
+.icon12 {
+  top:-35px;
+  background-image:url("../img/icon-tw.png");
+  background-size:cover;
+}
+.icon12:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-tw-on.png");
+}
+.icon13 {
+  top:-35px;
+  background-image:url("../img/icon-in.png");
+  background-size:cover;
+}
+.icon13:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-in-on.png");
+}
+.icon14 {
+  top:-20px;
+}
+.icon21 {
+  left: 20px;
+}
+.icon22 {
+  left: 35px;
+}
+.icon23 {
+  left: 35px;
+}
+.icon24 {
+  left: 20px;
+}
+.icon31 {
+  top: 20px;
+}
+.icon32 {
+  top: 35px;
+}
+.icon33 {
+  top: 35px;
+}
+.icon34 {
+  top: 20px;
+}
+.icon41 {
+  left: -20px;
+}
+.icon42 {
+  left: -35px;
+}
+.icon43 {
+  left: -35px;
+}
+.icon44 {
+  left: -20px;
 }

@@ -29,7 +29,7 @@
 .wrapper-13 {
 }
 .wrapper-21 {
-  flex-direction:column;
+  flex-direction:column-reverse;
   justify-content:space-between;
   align-items:flex-end;
 }
@@ -43,6 +43,7 @@
 .wrapper-31 {
 }
 .wrapper-32 {
+  flex-direction:row-reverse;
   justify-content:space-between;
   align-items:flex-start;
 }
@@ -53,17 +54,24 @@
   height:450px;
 }
 .icon-container {
-  width:30px;
-  height:30px;
-  background-color:blue;
+  width:40px;
+  height:40px;
   position:relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  transition: background-image .3s ease-in-out;
+  transform: scale(1);
+}
+.icon-container:hover {
+  transform: scale(1.5);
 }
 
 .facebook {
  top:0px;
 }
 .icon11 {
-  top:-20px;
+  top:-12px;
+  left:-12px;
   background-image:url("../img/icon-fb.png");
   background-size:cover;
 }
@@ -73,6 +81,7 @@
 }
 .icon12 {
   top:-35px;
+  left:-6px;
   background-image:url("../img/icon-tw.png");
   background-size:cover;
 }
@@ -82,6 +91,7 @@
 }
 .icon13 {
   top:-35px;
+  left:+6px;
   background-image:url("../img/icon-in.png");
   background-size:cover;
 }
@@ -90,41 +100,132 @@
   background-image:url("../img/icon-in-on.png");
 }
 .icon14 {
-  top:-20px;
+  top:-12px;
+  left:+12px;
+  background-image:url("../img/icon-tg.png");
+  background-size:cover;
+}
+.icon14:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-tg-on.png");
 }
 .icon21 {
-  left: 20px;
+  top: -12px;
+  left: 12px;
+  background-image:url("../img/icon-tb.png");
+  background-size:cover;
+}
+.icon21:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-tb-on.png");
 }
 .icon22 {
+  top: -6px;
   left: 35px;
+  background-image:url("../img/icon-so.png");
+  background-size:cover;
+}
+.icon22:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-so-on.png");
 }
 .icon23 {
+  top: 6px;
   left: 35px;
+  background-image:url("../img/icon-gh.png");
+  background-size:cover;
+}
+.icon23:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-gh-on.png");
 }
 .icon24 {
-  left: 20px;
+  top: 12px;
+  left: 12px;
+  background-image:url("../img/icon-yt.png");
+  background-size:cover;
+}
+.icon24:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-yt-on.png");
 }
 .icon31 {
-  top: 20px;
+  left: 12px;
+  top: 12px;
+  background-image:url("../img/icon-io.png");
+  background-size:cover;
+}
+.icon31:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-io-on.png");
 }
 .icon32 {
+  left: 6px;
   top: 35px;
+  background-image:url("../img/icon-fi.png");
+  background-size:cover;
+}
+.icon32:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-fi-on.png");
 }
 .icon33 {
+  left: -6px;
   top: 35px;
+  background-image:url("../img/icon-re.png");
+  background-size:cover;
+}
+.icon33:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-re-on.png");
 }
 .icon34 {
-  top: 20px;
+  left: -12px;
+  top: 12px;
+  background-image:url("../img/icon-me.png");
+  background-size:cover;
+}
+.icon34:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-me-on.png");
 }
 .icon41 {
-  left: -20px;
+  left: -12px;
+  top: 12px;
+  background-image:url("../img/icon-qu.png");
+  background-size:cover;
+}
+.icon41:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-qu-on.png");
 }
 .icon42 {
   left: -35px;
+  top: 6px;
+  background-image:url("../img/icon-pi.png");
+  background-size:cover;
+}
+.icon42:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-pi-on.png");
 }
 .icon43 {
   left: -35px;
+  top: -6px;
+  background-image:url("../img/icon-ig.png");
+  background-size:cover;
+}
+.icon43:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-ig-on.png");
 }
 .icon44 {
-  left: -20px;
+  left: -12px;
+  top: -12px;
+  background-image:url("../img/icon-sk.png");
+  background-size:cover;
+}
+.icon44:hover {
+  cursor:pointer;
+  background-image:url("../img/icon-sk-on.png");
 }

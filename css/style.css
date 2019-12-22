@@ -59,11 +59,14 @@
   position:relative;
   flex-grow: 0;
   flex-shrink: 0;
-  transition: background-image .3s ease-in-out;
+  transition: background-image .4s ease-in-out;
   transform: scale(1);
+  background-size:cover;
 }
 .icon-container:hover {
   transform: scale(1.5);
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .facebook {
@@ -73,7 +76,6 @@
   top:-12px;
   left:-12px;
   background-image:url("../img/icon-fb.png");
-  background-size:cover;
 }
 .icon11:hover {
   cursor:pointer;
@@ -93,7 +95,6 @@
   top:-35px;
   left:+6px;
   background-image:url("../img/icon-in.png");
-  background-size:cover;
 }
 .icon13:hover {
   cursor:pointer;
@@ -103,7 +104,6 @@
   top:-12px;
   left:+12px;
   background-image:url("../img/icon-tg.png");
-  background-size:cover;
 }
 .icon14:hover {
   cursor:pointer;
@@ -113,7 +113,6 @@
   top: -12px;
   left: 12px;
   background-image:url("../img/icon-tb.png");
-  background-size:cover;
 }
 .icon21:hover {
   cursor:pointer;
@@ -123,7 +122,6 @@
   top: -6px;
   left: 35px;
   background-image:url("../img/icon-so.png");
-  background-size:cover;
 }
 .icon22:hover {
   cursor:pointer;
@@ -133,7 +131,6 @@
   top: 6px;
   left: 35px;
   background-image:url("../img/icon-gh.png");
-  background-size:cover;
 }
 .icon23:hover {
   cursor:pointer;
@@ -143,7 +140,6 @@
   top: 12px;
   left: 12px;
   background-image:url("../img/icon-yt.png");
-  background-size:cover;
 }
 .icon24:hover {
   cursor:pointer;
@@ -153,7 +149,6 @@
   left: 12px;
   top: 12px;
   background-image:url("../img/icon-io.png");
-  background-size:cover;
 }
 .icon31:hover {
   cursor:pointer;
@@ -163,7 +158,6 @@
   left: 6px;
   top: 35px;
   background-image:url("../img/icon-fi.png");
-  background-size:cover;
 }
 .icon32:hover {
   cursor:pointer;
@@ -173,7 +167,6 @@
   left: -6px;
   top: 35px;
   background-image:url("../img/icon-re.png");
-  background-size:cover;
 }
 .icon33:hover {
   cursor:pointer;
@@ -183,7 +176,6 @@
   left: -12px;
   top: 12px;
   background-image:url("../img/icon-me.png");
-  background-size:cover;
 }
 .icon34:hover {
   cursor:pointer;
@@ -193,7 +185,6 @@
   left: -12px;
   top: 12px;
   background-image:url("../img/icon-qu.png");
-  background-size:cover;
 }
 .icon41:hover {
   cursor:pointer;
@@ -203,7 +194,6 @@
   left: -35px;
   top: 6px;
   background-image:url("../img/icon-pi.png");
-  background-size:cover;
 }
 .icon42:hover {
   cursor:pointer;
@@ -213,7 +203,6 @@
   left: -35px;
   top: -6px;
   background-image:url("../img/icon-ig.png");
-  background-size:cover;
 }
 .icon43:hover {
   cursor:pointer;
@@ -223,7 +212,6 @@
   left: -12px;
   top: -12px;
   background-image:url("../img/icon-sk.png");
-  background-size:cover;
 }
 .icon44:hover {
   cursor:pointer;

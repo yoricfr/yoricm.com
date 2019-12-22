@@ -59,161 +59,157 @@
   position:relative;
   flex-grow: 0;
   flex-shrink: 0;
-  transition: background-image .4s ease-in-out;
-  transform: scale(1);
-  background-size:cover;
+  transition: transform .4s linear, opacity .4s linear;
+  opacity: .6
 }
 .icon-container:hover {
   transform: scale(1.5);
   border-radius: 50%;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  cursor:pointer;
+  opacity: 1
 }
-
-.facebook {
- top:0px;
-}
+/* Facebook */
 .icon11 {
   top:-12px;
   left:-12px;
-  background-image:url("../img/icon-fb.png");
+  background: url('../img/icon_sprites.png') -40px -0;
 }
 .icon11:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-fb-on.png");
+  background: url('../img/icon_sprites.png') -0 -0;
 }
+/* Twitter */
 .icon12 {
   top:-35px;
   left:-6px;
-  background-image:url("../img/icon-tw.png");
-  background-size:cover;
+  background: url('../img/icon_sprites.png') -200px -160px;
 }
 .icon12:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-tw-on.png");
+  background: url('../img/icon_sprites.png') -200px -120px;
 }
+/* LinkedIn */
 .icon13 {
   top:-35px;
   left:+6px;
-  background-image:url("../img/icon-in.png");
+  background: url('../img/icon_sprites.png') -120px -0;
 }
 .icon13:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-in-on.png");
+  background: url('../img/icon_sprites.png') -80px -80px;
 }
+/* Telegram */
 .icon14 {
   top:-12px;
   left:+12px;
-  background-image:url("../img/icon-tg.png");
+  background: url('../img/icon_sprites.png') -200px -80px;
 }
 .icon14:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-tg-on.png");
+  background: url('../img/icon_sprites.png') -200px -40px;
 }
+/* Tumblr */
 .icon21 {
   top: -12px;
   left: 12px;
-  background-image:url("../img/icon-tb.png");
+  background: url('../img/icon_sprites.png') -200px -0;
 }
 .icon21:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-tb-on.png");
+  background: url('../img/icon_sprites.png') -160px -160px;
 }
+/* StackOverflow */
 .icon22 {
   top: -6px;
   left: 35px;
-  background-image:url("../img/icon-so.png");
+  background: url('../img/icon_sprites.png') -120px -160px;
 }
 .icon22:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-so-on.png");
+  background: url('../img/icon_sprites.png') -80px -160px;
 }
+/* GitHub */
 .icon23 {
   top: 6px;
   left: 35px;
-  background-image:url("../img/icon-gh.png");
+  background: url('../img/icon_sprites.png') -80px -40px;
 }
 .icon23:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-gh-on.png");
+  background: url('../img/icon_sprites.png') -80px -0;
 }
+/* YouTube */
 .icon24 {
   top: 12px;
   left: 12px;
-  background-image:url("../img/icon-yt.png");
+  background: url('../img/icon_sprites.png') -40px -200px;
 }
 .icon24:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-yt-on.png");
+  background: url('../img/icon_sprites.png') -0 -200px;
 }
+/* Dev.io */
 .icon31 {
   left: 12px;
   top: 12px;
-  background-image:url("../img/icon-io.png");
+  background: url('../img/icon_sprites.png') -120px -80px;
 }
 .icon31:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-io-on.png");
+  background: url('../img/icon_sprites.png') -120px -40px;
 }
+/* Fiverr */
 .icon32 {
   left: 6px;
   top: 35px;
-  background-image:url("../img/icon-fi.png");
+  background: url('../img/icon_sprites.png') -40px -40px;
 }
 .icon32:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-fi-on.png");
+  background: url('../img/icon_sprites.png') -0 -40px;
 }
+/* Reddit */
 .icon33 {
   left: -6px;
   top: 35px;
-  background-image:url("../img/icon-re.png");
+  background: url('../img/icon_sprites.png') -160px -120px;
 }
 .icon33:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-re-on.png");
+  background: url('../img/icon_sprites.png') -160px -80px;
 }
+/* Medium */
 .icon34 {
   left: -12px;
   top: 12px;
-  background-image:url("../img/icon-me.png");
+  background: url('../img/icon_sprites.png') -40px -120px;
 }
 .icon34:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-me-on.png");
+  background: url('../img/icon_sprites.png') -0 -120px;
 }
+/* Quora */
 .icon41 {
   left: -12px;
   top: 12px;
-  background-image:url("../img/icon-qu.png");
+  background: url('../img/icon_sprites.png') -160px -40px;
 }
 .icon41:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-qu-on.png");
+  background: url('../img/icon_sprites.png') -160px -0;
 }
+/* Pinterest */
 .icon42 {
   left: -35px;
   top: 6px;
-  background-image:url("../img/icon-pi.png");
+  background: url('../img/icon_sprites.png') -120px -120px;
 }
 .icon42:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-pi-on.png");
+  background: url('../img/icon_sprites.png') -80px -120px;
 }
+/* Instagram */
 .icon43 {
   left: -35px;
   top: -6px;
-  background-image:url("../img/icon-ig.png");
+  background: url('../img/icon_sprites.png') -40px -80px;
 }
 .icon43:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-ig-on.png");
+  background: url('../img/icon_sprites.png') -0 -80px;
 }
+/* Skype */
 .icon44 {
   left: -12px;
   top: -12px;
-  background-image:url("../img/icon-sk.png");
+  background: url('../img/icon_sprites.png') -40px -160px;
 }
 .icon44:hover {
-  cursor:pointer;
-  background-image:url("../img/icon-sk-on.png");
+  background: url('../img/icon_sprites.png') -0 -160px;
 }
